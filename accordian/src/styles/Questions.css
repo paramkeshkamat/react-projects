@@ -1,0 +1,39 @@
+.Question {
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.Question:last-child {
+  margin-bottom: 0;
+}
+
+.Question p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #eee;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  display: grid;
+  place-items: center;
+}
