@@ -5,4 +5,5 @@ I've deployed all the projects on Netlify, have a look...
 2. Tours -> https://tours7.netlify.app/
 3. Reviews -> https://reviews2.netlify.app/
 4. Accordian -> https://accordian2.netlify.app/
-4. Meny -> https://menu7.netlify.app/
+5. Menu -> https://menu7.netlify.app/
+6. Tabs -> https://tabs2.netlify.app/
