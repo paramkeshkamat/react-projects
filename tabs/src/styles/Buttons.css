@@ -1,0 +1,39 @@
+.Button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.job-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  padding: 4px 0 6px 0;
+  letter-spacing: 1px;
+  background-color: transparent;
+  margin: 5px;
+  transition: all 0.4s ease;
+}
+.job-btn:hover {
+  color: #1a808a;
+}
+
+.active-btn {
+  color: #1a808a;
+  border-left: 4px solid #1a808a;
+}
+
+@media (max-width: 768px) {
+  .Button {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .active-btn {
+    border-bottom: 2px solid #1a808a;
+    border-left: none;
+  }
+  .job-btn {
+    margin: 0 10px;
+  }
+}
