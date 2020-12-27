@@ -7,3 +7,5 @@ I've deployed all the projects on Netlify, have a look...
 4. Accordian -> https://accordian2.netlify.app/
 5. Menu -> https://menu7.netlify.app/
 6. Tabs -> https://tabs2.netlify.app/
+7. Slider -> https://slider7.netlify.app/
+8. Dummy Paragraphs -> https://lorem-ipsum2.netlify.app/
