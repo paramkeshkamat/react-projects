@@ -11,10 +11,10 @@ const Questions = (props) => {
       <div className="title">
         <h3>{title}</h3>
         <button className="btn" onClick={() => setShow(!show)}>
-            <RemoveIcon style={{ fontSize: 16 }} />
-          ) : (
-            <AddIcon style={{ fontSize: 16 }} />
-          )}
+          {show
+            ? <RemoveIcon style={{ fontSize: 16 }} />
+            : <AddIcon style={{ fontSize: 16 }} />
+          }
         </button>
       </div>
       <p>{show && info}</p>
