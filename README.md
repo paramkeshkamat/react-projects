@@ -9,3 +9,6 @@ I've deployed all the projects on Netlify, have a look...
 6. Tabs -> https://tabs2.netlify.app/
 7. Slider -> https://slider7.netlify.app/
 8. Dummy Paragraphs -> https://lorem-ipsum2.netlify.app/
+9. Grocery List -> https://grocery-list2.netlify.app/
+10. Navbar -> https://navbar99.netlify.app/
+11. Sidebar & Modal -> https://sidebar-modal2.netlify.app/
