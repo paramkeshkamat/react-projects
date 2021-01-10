@@ -1,0 +1,91 @@
+.Sidebar {
+  width: 400px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  position: relative;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-out;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.close-sidebar {
+  margin-top: 7px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  transform: scale(2);
+  transition: all 0.4s ease;
+}
+
+.nav-links {
+  margin-top: 25px;
+}
+
+.nav-links li {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+}
+.nav-links li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.nav-links a svg {
+  margin-right: 20px;
+}
+
+.social-links {
+  display: flex;
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-links li {
+  list-style: none;
+  transform: scale(1.4);
+  margin: 0 12px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: slateblue;
+}
+
+.social-links a:hover {
+  color: rgb(59, 41, 180);
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
+
+@media (max-width: 600px) {
+  .Sidebar {
+    width: 100%;
+  }
+}
