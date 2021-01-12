@@ -1,0 +1,42 @@
+.Error {
+    text-align: center;
+    max-width: 700px;
+    width: 90vw;
+    margin: auto;
+}
+
+.Error img {
+    width: 350px;
+    margin-top: 40px;
+}
+
+.Error h2 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.Error p {
+    margin: 15px 0 25px 0;
+    font-size: 17px;
+    letter-spacing: .5px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.Error button {
+    background-color: #476a2e;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 7px 20px 9px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media (max-width: 400px) {
+    .Error img {
+        width: 200px;
+    }
+}

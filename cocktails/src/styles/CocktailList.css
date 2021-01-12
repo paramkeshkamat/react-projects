@@ -1,0 +1,38 @@
+.cocktail-error {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+.CocktailList {
+  max-width: 850px;
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px 30px;
+  padding-bottom: 50px;
+}
+
+.heading {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 7px;
+  position: relative;
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #476a2e;
+  transform: translateX(-50%);
+}

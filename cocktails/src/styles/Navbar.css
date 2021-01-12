@@ -1,0 +1,46 @@
+.Navbar {
+  width: 100%;
+  padding: 25px 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  width: 200px;
+}
+
+.container li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+}
+.container a:hover {
+  color: #476a2e;
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+  .container img {
+    margin-bottom: 20px;
+  }
+  .container li {
+    margin: 0 10px 0 10px;
+  }
+}
