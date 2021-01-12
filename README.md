@@ -12,3 +12,4 @@ I've deployed all the projects on Netlify, have a look...
 9. Grocery List -> https://grocery-list2.netlify.app/
 10. Navbar -> https://navbar99.netlify.app/
 11. Sidebar & Modal -> https://sidebar-modal2.netlify.app/
+12. Cocktails -> https://cocktails2.netlify.app/
